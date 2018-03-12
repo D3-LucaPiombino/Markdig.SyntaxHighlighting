@@ -214,3 +214,7 @@ FakesAssemblies/
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
+
+# exclude lib/ for the time being, until the colorcode i published to nuget.
+!lib/LocalPackages/*
+
